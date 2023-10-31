@@ -2,7 +2,7 @@
 
 defaults:
   - audiogen/default
-  - /model: encodec/encodec_large_nq4_s640
+  - /model: lm/audiogen_lm
   - override /dset: audio/boom
   - _self_
 
@@ -36,8 +36,8 @@ seanet:
 # very small dataset
 dataset:
   batch_size: 8
-  num_workers: 10
-  num_samples: 100
+  num_workers: 2
+  num_samples: 10
   segment_duration: 1
   evaluate:
     batch_size: 32

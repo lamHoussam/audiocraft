@@ -10,7 +10,7 @@ lm_model: transformer_lm
 codebooks_pattern:
   modeling: delay
   delay:
-    delays: [0, 1, 2, 3]
+    delays: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     flatten_first: 0
     empty_initial: 0
   unroll:
@@ -22,8 +22,8 @@ codebooks_pattern:
     delays: [0, 0, 0]
 
 transformer_lm:
-  n_q: 4
-  card: 2048
+  n_q: 16
+  card: 1024
   memory_efficient: true
   bias_proj: false
   bias_ff: false

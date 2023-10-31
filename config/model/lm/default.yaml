@@ -7,6 +7,7 @@ lm_model: transformer_lm
 
 codebooks_pattern:
   modeling: parallel
+  delays: 16
 
 transformer_lm:
   dim: 512
