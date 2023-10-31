@@ -2,8 +2,8 @@
 
 defaults:
   - audiogen/default
-  - /model: lm/audiogen_lm
-  - override /dset: audio/example
+  - /model: encodec/encodec_large_nq4_s640
+  - override /dset: audio/boom
   - _self_
 
 channels: 2
