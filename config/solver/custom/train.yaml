@@ -8,6 +8,7 @@ defaults:
 
 channels: 2
 sample_rate: 48000
+compression_model_checkpoint: //pretrained/facebook/encodec_48khz
 
 # debug config uses just L1
 losses:
