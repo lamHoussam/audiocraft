@@ -6,9 +6,9 @@ defaults:
   - override /dset: audio/boom
   - _self_
 
-channels: 2
-sample_rate: 48000
-compression_model_checkpoint: //pretrained/facebook/encodec_48khz
+channels: 1
+sample_rate: 16000
+compression_model_checkpoint: //pretrained/facebook/encodec_24khz
 
 # debug config uses just L1
 losses:
